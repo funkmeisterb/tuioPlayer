@@ -1,6 +1,13 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxTuio.h"
+
+class appSettings
+{
+public:
+	int					nPort;
+};
 
 class ofApp : public ofBaseApp{
 
@@ -20,5 +27,15 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-		
+
+	private:
+		void loadSettings();
+		void saveSettings();
+		void tuioAdded(ofxTuioCursor & tuioCursor);
+		void tuioRemoved(ofxTuioCursor & tuioCursor);
+		void tuioUpdated(ofxTuioCursor & tuioCursor);
+
+		ofxTuioClient   tuioClient;
+
+		appSettings							settings;
 };

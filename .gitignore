@@ -1,1 +1,5 @@
 /bin
+/obj
+/.vs/tuioPlayer/v14/.suo
+/tuioPlayer.VC.VC.opendb
+/tuioPlayer.VC.db

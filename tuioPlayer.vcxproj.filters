@@ -7,6 +7,12 @@
 		<ClCompile Include="src\main.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
 			<Filter>addons\ofxGui\src</Filter>
 		</ClCompile>
@@ -117,6 +123,12 @@
 		<Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
 			<UniqueIdentifier>{EDACB89C-9768-9551-4D41-B590}</UniqueIdentifier>
 		</Filter>
+		<Filter Include="addons\ofxTuio">
+			<UniqueIdentifier>{AC7E6102-1DD1-BB27-C8EC-8F23}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTuio\src">
+			<UniqueIdentifier>{287B52FF-73ED-7764-F103-1853}</UniqueIdentifier>
+		</Filter>
 		<Filter Include="addons\ofxXmlSettings">
 			<UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
 		</Filter>
@@ -128,6 +140,9 @@
 		</Filter>
 	</ItemGroup>
 	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
 		<ClInclude Include="src\ofApp.h">
 			<Filter>src</Filter>
 		</ClInclude>
@@ -217,6 +232,24 @@
 		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
 			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTuio\src\ofxTuio.h">
+			<Filter>addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTuio\src\ofxTuioClient.h">
+			<Filter>addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTuio\src\ofxTuioContainer.h">
+			<Filter>addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTuio\src\ofxTuioCursor.h">
+			<Filter>addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTuio\src\ofxTuioObject.h">
+			<Filter>addons\ofxTuio\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTuio\src\ofxTuioPoint.h">
+			<Filter>addons\ofxTuio\src</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
 			<Filter>addons\ofxXmlSettings\src</Filter>
