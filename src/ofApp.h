@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxTuio.h"
+#include "ofTuioCursor2.h"
 
 class appSettings
 {
@@ -35,7 +36,8 @@ class ofApp : public ofBaseApp{
 		void tuioRemoved(ofxTuioCursor & tuioCursor);
 		void tuioUpdated(ofxTuioCursor & tuioCursor);
 
-		ofxTuioClient   tuioClient;
+		ofxTuioClient						tuioClient;
+		list<ofTuioCursor2>					lsCursors;
 
 		appSettings							settings;
 };
