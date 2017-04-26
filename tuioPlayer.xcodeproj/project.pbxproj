@@ -1138,9 +1138,9 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofApp.h</string>
+				<string>src/ofApp.h</string>
 				<key>path</key>
-				<string>src\ofApp.h</string>
+				<string>src/ofApp.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1160,9 +1160,9 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\ofApp.cpp</string>
+				<string>src/ofApp.cpp</string>
 				<key>path</key>
-				<string>src\ofApp.cpp</string>
+				<string>src/ofApp.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1182,9 +1182,9 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>src\main.cpp</string>
+				<string>src/main.cpp</string>
 				<key>path</key>
-				<string>src\main.cpp</string>
+				<string>src/main.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
